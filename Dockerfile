@@ -1,4 +1,4 @@
-FROM fuzzers/cargo-fuzz:0.10.0
+FROM fuzzers/cargo-fuzz:0.11.0
 
 WORKDIR  /work
 ADD . .
